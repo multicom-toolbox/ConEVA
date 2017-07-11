@@ -16,7 +16,7 @@ Running the downloadable ConEVA tool
 Installing the web-server
 -------------------------------------------------------------------
 In order to host your own web-server, please follow the steps below:
- - Download "web-server.zip" and unzip it.
+ - Download "web-server-v1.1.zip" and unzip it.
  - Copy the files in html and cgi-bin folders to appropriate places.
  - Verify that R is installed.
 All the pre-curated datasets are available for download at: http://sysbio.rnet.missouri.edu/bdm_download/ConEVA/ 
