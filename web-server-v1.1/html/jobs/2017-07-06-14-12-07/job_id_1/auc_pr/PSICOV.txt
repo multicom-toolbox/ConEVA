@@ -1,0 +1,2 @@
+Area Under the Curve for Precision - Recall is 0.34810028775366797
+Area Under the Curve for ROC is 0.7556584776725965

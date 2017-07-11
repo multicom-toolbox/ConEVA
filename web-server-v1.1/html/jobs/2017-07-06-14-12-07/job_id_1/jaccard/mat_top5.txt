@@ -1,0 +1,5 @@
+	CCMpred	PSICOV	meta..ICOV	mfDCA
+CCMpred	1.00	0.43	0.11	0.25	
+PSICOV	0.43	1.00	0.25	0.43	
+meta..ICOV	0.11	0.25	1.00	0.25	
+mfDCA	0.25	0.43	0.25	1.00	
