@@ -1,0 +1,118 @@
+body{
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 13px;
+	line-height:1.5;
+}
+
+a{ 
+	cursor: pointer; 
+}
+
+table.results{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th.resultsheadingrow{
+	background-color: #CCCCDD;
+	font-weight:normal;
+	text-align: left;
+	padding: 5px;
+}
+
+th.resultsdataheadingrow{
+	background-color: #EEEEFF;
+	font-weight:normal;
+	text-align:center;
+	padding: 5px;
+}
+
+td.resultdata{
+	color: #505050;
+	font-family: Verdana, sans-serif;
+}
+
+td.contactcountheader{
+	text-align:center;
+	background-color:#EEEEFF;
+}
+
+td.contactcountvalues{
+	color: #707070;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+table.countbox{
+	width: 980px;
+	border-collapse: collapse;
+	box-shadow: 0px 0px 0px;
+	text-align: left;
+	cellspacing:0;
+	cellpadding:1;
+}
+
+table.smalldatabox{
+	width:580px;
+	border-collapse: collapse;
+	text-align:center;
+	padding:0;
+}
+
+td.smalldataboxvalues{
+	font-family: Verdana, sans-serif;
+	text-align:right;
+	color: #707070;
+}
+
+td.coordinationnumber{
+	font-family:monospace;
+	text-align:left;
+}
+
+font.showdescription{
+	font-family:monospace;
+	color:blue;
+	text-decoration:underline;
+}
+
+progress {
+	display:inline-block;
+	width:190px;
+	height:20px;
+	padding:15px 0 0 0;
+	margin:0;
+	background:none;
+	border: 0;
+	border-radius: 15px;
+	text-align: left;
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+progress::-webkit-progress-bar {
+	height:11px;
+	width:150px;
+	margin:0 auto;
+	background-color: #CCC;
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress::-webkit-progress-value {
+	display:inline-block;
+	float:left;
+	height:11px;
+	margin:0px -10px 0 0;
+	background: #F70;
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress:after {
+	margin:-26px 0 0 -7px;
+	padding:0;
+	display:inline-block;
+	float:left;
+	content: attr(value) '%';
+}
+
