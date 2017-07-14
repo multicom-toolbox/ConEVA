@@ -1,7 +1,7 @@
 -------------------------------------------------------------------
 ConEVA: a Toolbox for Comprehensive Assessment of Protein Contacts
 -------------------------------------------------------------------
-http://cactus.rnet.missouri.edu/coneva/
+http://iris.rnet.missouri.edu/coneva/
 
 -------------------------------------------------------------------
 Running the downloadable ConEVA tool
