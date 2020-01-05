@@ -102,7 +102,7 @@ $top_count{"L/5"}  = int(0.2 * length($ungapped_seq) + 0.5);
 $top_count{"L/2"}  = int(0.5 * length($ungapped_seq) + 0.5);
 $top_count{"L"}    = length($ungapped_seq);
 $top_count{"2L"}   = int(2.0 * length($ungapped_seq));
-$top_count{"ALL"}  = 100000 if $flag_show_all;
+$top_count{"ALL"}  = (scalar keys %pdb_cont_dist) if $flag_show_all;
 $top_count_order{"5"}    = 1;
 $top_count_order{"L/10"} = 2;
 $top_count_order{"L/5"}  = 3;
@@ -112,7 +112,7 @@ $top_count_order{"2L"}   = 6;
 $top_count_order{"ALL"}  = 7;
 
 if($jaccard_selct){
-	confess "Cannot calculate Jaccard Similarity for $jaccard_selct! Options are 5, L/10, L/5, L/2, L, 2L\n" if not defined $top_count{$jaccard_selct};
+	confess "Can calculate Jaccard Similarity for $jaccard_selct! Options are 5, L/10, L/5, L/2, L, 2L\n" if not defined $top_count{$jaccard_selct};
 }
 
 # Load all contacts to be assessed (including pdb contacts)
@@ -236,6 +236,8 @@ foreach my $rr (sort @rr_list){
 	}
 	print "\n";
 }
+
+exit() if ! $flag_show_all;
 
 # Coverage
 print "\n";
